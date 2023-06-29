@@ -19,7 +19,7 @@ function HotelRooms () {
   
   return (
     <div className='hotel-rooms'>
-      <h1 style={{ fontFamily: 'system-ui', color: '#333333'}}>Stays in finland</h1>
+      <h1>Stays in finland</h1>
     </div>
   )
 }
