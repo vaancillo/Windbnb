@@ -69,4 +69,23 @@ nav ul li.search-bar button {
 }
 
 .hotels-photos-rooms {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax
+    (300px, 
+    1fr
+    )
+  );
+  gap: 16px;
+  
+}
+
+.btn-primary {
+  border-radius: 12px;
+  border: 1px solid #4F4F4F;
+  color: #4F4F4F;
+  font-size: 12px;
+  font-family: Montserrat;
+  font-weight: 700;
 }
