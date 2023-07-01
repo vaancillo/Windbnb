@@ -1,13 +1,10 @@
 import '../App.css'
-import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css';
 
 function HotelRooms () {
   
     return (
       <div>
-        <h1>Stays in finland 
-          <span className='hotel-rooms'>12+ stays</span>
-        </h1>
         <section className='hotels-photos-rooms'>
           <li>
             <ul>
