@@ -5,11 +5,11 @@ const Header = () => {
     <div>
       <nav>
         <img className="logo-img"src={logo} alt="logo airbnb" />
-          <div className="search-div">
-            <h1 className="search-text">Helsinki, Finland</h1>
+          <div className="srch-div">
+            <h1 className="srch-text">Helsinki, Finland</h1>
             <div className="divider"></div>
-            <input className="search-input"type='text' placeholder='Add Guest'/>
-            <button className="search-button"><img className="search-img" src={search}></img></button>
+            <input className="srch-input"type='text' placeholder='Add Guest'/>
+            <button className="srch-button"><img className="srch-img" src={search} alt="SearchIcon"></img></button>
           </div>        
       </nav>
       <section>
