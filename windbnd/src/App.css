@@ -11,7 +11,7 @@
   margin-left: 50px;
 }
 
-h1 {
+.header-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,27 +54,28 @@ h1 {
   font-family: Montserrat;
   font-weight: 700;
 }
-.srch-div{
+.srch-div {
   display: flex;
   padding: 3px;
+  position: relative;
   border: none;
-  border-radius: 50px;
+  border-radius: 16px;
   padding: 5px 10px;
   outline: none;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.10);
 }
 .srch-button{
   border:none;
   
 }
 .srch-img{
-  width: 20px;
-  height: 20px;
-  padding: 10px;
+  width: 25px;
   color: red;
   cursor:pointer;
 }
 .srch-text{
+  height: 40px;
+  padding: 15px;
   margin-left: 5px;
   margin-right: 5px;
   font-size: 14px;
@@ -98,7 +99,20 @@ nav {
   border:none;
 }
 .divider {
-    width: 1px;
-    background-color: rgb(214, 214, 214);
-    margin-left: 10px;
+  width: 1px;
+  background-color: rgb(214, 214, 214);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 150px;
 }
+
+.divider2 {
+  width: 1px;
+  background-color: rgb(214, 214, 214);
+  /*top: 10%; */
+  right: 40px;
+  transform: translateY(-1%);
+  z-index: 1; 
+}
+
