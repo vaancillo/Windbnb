@@ -5,7 +5,8 @@
   padding: 0;
   margin: 0;
 }
-.logo-img{
+
+.logo-img {
   width: 100px;
   height: 100px;
   margin-left: 50px;
@@ -34,16 +35,9 @@
 }
 
 .hotels-photos-rooms {
-  display: grid;
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax
-    (300px, 
-    1fr
-    )
-  );
-  gap: 16px;
-  
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important; 
+  gap: 16px !important; 
 }
 
 .btn-primary {
@@ -54,6 +48,7 @@
   font-family: Montserrat;
   font-weight: 700;
 }
+
 .srch-div {
   display: flex;
   padding: 3px;
@@ -63,26 +58,30 @@
   padding: 5px 10px;
   outline: none;
   box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.10);
+  margin-right: 50px;
 }
-.srch-button{
-  border:none;
-  
+
+.srch-button {
+  border: none;
 }
-.srch-img{
+
+.srch-img {
   width: 25px;
   color: red;
-  cursor:pointer;
+  cursor: pointer;
 }
-.srch-text{
+
+.srch-text {
   height: 40px;
   padding: 15px;
   margin-left: 5px;
   margin-right: 5px;
   font-size: 14px;
   margin-top: 0%;
-  cursor:default;
+  cursor: default;
 }
-.srch-input{
+
+.srch-input {
   border: none;
   outline: none;
   font-size: 14px;
@@ -90,14 +89,18 @@
   margin-left: 17px;
 }
 
+.srch-button {
+  cursor: default;
+}
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0px;
-  border:none;
+  border: none;
 }
+
 .divider {
   width: 1px;
   background-color: rgb(214, 214, 214);
@@ -106,13 +109,10 @@ nav {
   top: 0;
   left: 150px;
 }
-
 .divider2 {
   width: 1px;
   background-color: rgb(214, 214, 214);
-  /*top: 10%; */
-  right: 40px;
   transform: translateY(-1%);
-  z-index: 1; 
+  z-index: 1;
+  margin-right: 20px;
 }
-

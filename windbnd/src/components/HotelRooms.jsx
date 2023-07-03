@@ -6,8 +6,6 @@ function HotelRooms () {
     return (
       <div>
         <section className='hotels-photos-rooms'>
-          <li>
-            <ul>
             <div className="card" style={{width: '18rem'}}>
               <img className="card-img-top" src="https://cdn.forbes.com.mx/2021/12/Hoteles-de-lujo-tres-1-1024x682.jpg" alt="Card image cap" />
                  <div className="card-body">
@@ -21,6 +19,7 @@ function HotelRooms () {
                  <div className="card-body">
                     <h5 className="card-title">Private room</h5>
                     <p className="card-text">Cozy, peaceful and private room with...</p>
+                    <a href="#" className="btn-primary">SUPER HOST</a>
                   </div>
             </div>
             <div className="card" style={{width: '18rem'}}>
@@ -28,6 +27,7 @@ function HotelRooms () {
                  <div className="card-body">
                     <h5 className="card-title">Entire house</h5>
                     <p className="card-text">Modern house in remote arena</p>
+                    <a href="#" className="btn-primary">SUPER HOST</a>
                   </div>
             </div>
             <div className="card" style={{width: '18rem'}}>
@@ -43,6 +43,7 @@ function HotelRooms () {
                  <div className="card-body">
                     <h5 className="card-title">Private room</h5>
                     <p className="card-text">Modern apartement close to nature</p>
+                    <a href="#" className="btn-primary">SUPER HOST</a>
                   </div>
             </div>
             <div className="card" style={{width: '18rem'}}>
@@ -50,6 +51,7 @@ function HotelRooms () {
                  <div className="card-body">
                     <h5 className="card-title">Entire house</h5>
                     <p className="card-text">House in remote area</p>
+                    <a href="#" className="btn-primary">SUPER HOST</a>
                   </div>
             </div>
               {/* <img src='https://cdn.forbes.com.mx/2021/12/Hoteles-de-lujo-tres-1-1024x682.jpg' alt='habitacion de lujo ' />
@@ -58,8 +60,6 @@ function HotelRooms () {
               <img src='https://i.pinimg.com/originals/da/39/ce/da39ceccbd966c17c74c016e311e1ec2.png' alt='habitacion nuevo estilo' />
               <img src='https://uh.gsstatic.es/sfAttachPlugin/2009247.jpg' alt='habitaciones del nuevo hotel Gran Lujo de Sant Tomás' />
               <img src='https://i0.wp.com/tucochinito.com/wp-content/uploads/2019/09/cuarto-lujo-hotel-1.jpg' alt='hotel de lujo' /> */}
-            </ul>
-          </li>
         </section>
       </div>
     )
