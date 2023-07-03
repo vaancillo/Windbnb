@@ -19,7 +19,6 @@ function HotelRooms () {
                  <div className="card-body">
                     <h5 className="card-title">Private room</h5>
                     <p className="card-text">Cozy, peaceful and private room with...</p>
-                    <a href="#" className="btn-primary">SUPER HOST</a>
                   </div>
             </div>
             <div className="card" style={{width: '18rem'}}>
@@ -27,7 +26,6 @@ function HotelRooms () {
                  <div className="card-body">
                     <h5 className="card-title">Entire house</h5>
                     <p className="card-text">Modern house in remote arena</p>
-                    <a href="#" className="btn-primary">SUPER HOST</a>
                   </div>
             </div>
             <div className="card" style={{width: '18rem'}}>
@@ -43,7 +41,6 @@ function HotelRooms () {
                  <div className="card-body">
                     <h5 className="card-title">Private room</h5>
                     <p className="card-text">Modern apartement close to nature</p>
-                    <a href="#" className="btn-primary">SUPER HOST</a>
                   </div>
             </div>
             <div className="card" style={{width: '18rem'}}>
@@ -51,7 +48,6 @@ function HotelRooms () {
                  <div className="card-body">
                     <h5 className="card-title">Entire house</h5>
                     <p className="card-text">House in remote area</p>
-                    <a href="#" className="btn-primary">SUPER HOST</a>
                   </div>
             </div>
               {/* <img src='https://cdn.forbes.com.mx/2021/12/Hoteles-de-lujo-tres-1-1024x682.jpg' alt='habitacion de lujo ' />
