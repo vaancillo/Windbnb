@@ -36,10 +36,10 @@
 
 .hotels-photos-rooms {
   display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important; 
-    gap: 16px !important; 
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)) !important; 
+  gap: 16px !important;
+  justify-items: center !important;
 }
-
 .btn-primary {
   border-radius: 12px;
   border: 1px solid #4F4F4F;
@@ -47,6 +47,7 @@
   font-size: 12px;
   font-family: Montserrat;
   font-weight: 700;
+  padding: 5px ;
 }
 
 .srch-div {
@@ -115,4 +116,41 @@ nav {
   transform: translateY(-1%);
   z-index: 1;
   margin-right: 20px;
+}
+@media (max-width: 600px) {
+  .divider{
+    display: none;
+  } 
+}
+
+.card-img-top {
+  border-radius: 24px !important;
+}
+
+.card {
+  border: none !important;
+}
+
+.card-title {
+  color:#828282;
+  font-size: 14px;
+  font-family: Montserrat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text {
+  color: #333;
+  text-align: left;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.star img{
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
 }
