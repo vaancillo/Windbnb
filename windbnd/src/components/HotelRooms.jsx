@@ -41,7 +41,10 @@ function HotelRooms () {
                  <div className="card-body">
                     <h5 className="card-title">Private room</h5>
                     <p className="card-text">Modern apartement close to nature</p>
-                    <div className='star'><img src='/Estrella.png' alt='imagen de estrella' /><p>4.85</p></div>
+                    <div className='star'>
+                      <img src='/Estrella.png' alt='imagen de estrella' />
+                      <p>4.85</p>
+                      </div>
                   </div>
             </div>
             <div className="card" style={{width: '18rem'}}>
