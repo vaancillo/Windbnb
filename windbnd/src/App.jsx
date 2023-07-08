@@ -1,12 +1,11 @@
-import Header from "./components/Header"
-import HotelRooms from "./components/HotelRooms"
-
+import Header from './components/Header'
+import HotelRooms from './components/HotelRooms'
 
 const App = () => {
   return (
     <>
-    <Header />
-    <HotelRooms />
+      <Header />
+      <HotelRooms />
     </>
   )
 }
