@@ -40,6 +40,11 @@
   gap: 16px !important;
   justify-items: center !important;
 }
+
+.btn-cont {
+  position: relative;
+}
+
 .btn-primary {
   border-radius: 20px;
   border: 1.8px solid #4F4F4F;
@@ -48,6 +53,9 @@
   font-weight:bolder;
   font-family: Montserrat;
   padding: 6px 10px 6px 10px;
+  position: absolute;
+  top: 200px;
+  right: 193px;
 }
 
 .srch-div {
@@ -138,6 +146,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  right: 150px !important;
 }
 
 .card-text {

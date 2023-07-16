@@ -5,11 +5,11 @@ function HotelRooms () {
   return (
     <div>
       <section className='hotels-photos-rooms'>
-        <div className='card' style={{ width: '18rem' }}>
+        <div className='card' style={{ width: '18rem', position: 'relative'}}>
           <img className='card-img-top' src='https://cdn.forbes.com.mx/2021/12/Hoteles-de-lujo-tres-1-1024x682.jpg' alt='Card image cap' />
           <div className='card-body'>
             <h5 className='card-title'>Entire apartement. 2 beds</h5>
-            <p className='card-text'>Stylest apartement in the center of the city</p>
+            <p className='card-text'>Stylest apartement in the center of the city</p> 
             <button href='#' className='btn-primary'>SUPER HOST</button>
           </div>
         </div>
